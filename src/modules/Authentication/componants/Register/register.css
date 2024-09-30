@@ -1,0 +1,33 @@
+/* Style for the container */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  /* Style for the form control */
+  .form-control {
+    border-radius: 0.25rem;
+  }
+  
+  /* Style adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .btn {
+      width: 100%;
+    }
+  }
+  
+  /* Ensures form group positioning */
+  .form-group {
+    position: relative;
+  }
+  
+  /* Position for icons */
+  .position-absolute {
+    position: absolute;
+  }
+  
+  /* Error message styling */
+  .text-danger {
+    display: block;
+  }
+  

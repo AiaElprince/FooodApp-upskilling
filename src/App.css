@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.auth-container{
+    background-image: url("./assets/photo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+}
+.bg-overlay{
+    background-image: linear-gradient(45deg,rgba(47, 140, 96, 0.63),rgba(0, 0, 0, 0.62));
+}
+.title p{
+    color:rgb(122, 121, 121);
+}
+.sidebarContainer .ps-sidebar-container{
+    background-color:rgba(31, 38, 62, 1);
+    height: 100%;
+}
+.sidebarContainer .ps-menu-button{
+    color: #fff !important;
+}
+.sidebarContainer .ps-menu-button:hover {
+    background-color:rgba(47,140,96,0.5) !important;
+}
+.sidebarContainer .bg-success{
+    background-color: none;
+}
+.sidebarContainer .firstItem .ps-menu-button:hover{
+    background:transparent !important;
+}
+
+.header-container{
+    background-image: url(../src/assets/background.png);
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+}
+.img-list{
+    width: 50px;
+}
+.home-container{
+    background-color: #F0FFEF;
+}
+
+/* .main-container-error{
+    background-image: url(../src/assets/back404.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+} */
+
+.main-container-error{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.container-error{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    transform: translateX(50%);
+    z-index: 555555;
+}
+.notfound{
+    width: 366px;
+    height: 104px;
+    object-fit: cover;
+}
+.main-taitle{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.title{
+    width: 418px;
+}
+.title h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 4h.41px;
+    text-transform: capitalize;
+}
+.title h1 span{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 4h.41px;
+    text-transform: capitalize;
+}
+.title h1 h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: capitalize;
+}
+.title p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 4%;
+    text-transform: capitalize;
+}
+.btn-back{
+    width: 382px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: paleturquoise;
+    border: none;
+    gap: 20px;
+    text-transform: capitalize;
+}
+.style-not-found{
+    width: 100%;
+    background:url('../src/assets/back404.png');
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.style-not-found img{
+width: 775px;
+height: 601px;
+object-fit: cover;
+transform: translate(10%);
+}

@@ -1,0 +1,25 @@
+.table-container {
+  overflow-x: auto; /* Allows horizontal scrolling if needed */
+}
+
+.table {
+  width: 100%; /* Ensure the table takes up the full width of its container */
+  border-collapse: collapse; /* Ensures table borders are collapsed */
+}
+
+.table td, .table th {
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center; /* Centers pagination controls */
+}
+
+.page-link {
+  cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+.icon-button {
+  margin: 0 5px; /* Adjusts spacing around action buttons */
+}
